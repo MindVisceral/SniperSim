@@ -1,3 +1,10 @@
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+
+# Project-specific ignores
+## Trenchbroom ignores
+/TrenchBroomResources/TrenchBroomModels/
+/TrenchBroomResources/TrenchBroomMaps/
+/TrenchBroomResources/TrenchBroomMaps/autosaves

@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="FuncGodotFGDFile" load_steps=3 format=3 uid="uid://bhni7vu0kg0x4"]
+
+[ext_resource type="Script" uid="uid://o67d4gqym3ec" path="res://addons/func_godot/src/fgd/func_godot_fgd_file.gd" id="1_66nbk"]
+[ext_resource type="Resource" uid="uid://crgpdahjaj" path="res://addons/func_godot/fgd/func_godot_fgd.tres" id="1_fho5v"]
+
+[resource]
+script = ExtResource("1_66nbk")
+export_file = false
+target_map_editor = 1
+fgd_name = "SniperSim"
+base_fgd_files = Array[Resource]([ExtResource("1_fho5v")])
+entity_definitions = Array[Resource]([])
+metadata/_custom_type_script = "uid://o67d4gqym3ec"
