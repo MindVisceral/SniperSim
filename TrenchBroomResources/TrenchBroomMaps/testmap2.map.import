@@ -1,0 +1,14 @@
+[remap]
+
+importer="func_godot.map"
+type="Resource"
+uid="uid://cdqccuevk7o4f"
+path="res://.godot/imported/testmap2.map-b41215ba2f317263b3ec2170dfcd8fdf.tres"
+
+[deps]
+
+source_file="res://TrenchBroomResources/TrenchBroomMaps/testmap2.map"
+dest_files=["res://.godot/imported/testmap2.map-b41215ba2f317263b3ec2170dfcd8fdf.tres"]
+
+[params]
+

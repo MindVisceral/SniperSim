@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://b2fet7sg7ta7s"]
+
+[ext_resource type="PackedScene" uid="uid://bn7y4wu56lcq0" path="res://Entities/Weapons/Firearms/Firearm_Hitscan.tscn" id="1_k8jy2"]
+[ext_resource type="Script" uid="uid://buk82v7rh2g02" path="res://Entities/Weapons/Firearms/Pistol.gd" id="2_ejjpi"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_l8w1a"]
+size = Vector3(0.1, 0.1, 0.2)
+
+[node name="Pistol" node_paths=PackedStringArray("bullet_start_point") instance=ExtResource("1_k8jy2")]
+editor_description = ""
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+script = ExtResource("2_ejjpi")
+shot_cooldown = 1.6
+bullet_start_point = NodePath("ModelHolder/TrailSpawnPoint")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="ModelHolder" index="0"]
+mesh = SubResource("BoxMesh_l8w1a")
+
+[node name="TrailSpawnPoint" type="Marker3D" parent="ModelHolder" index="1"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, -8.66954e-09, 0, 0.099168)
+gizmo_extents = 0.05
